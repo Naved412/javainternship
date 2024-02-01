@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ATMExample {
+public class ATM {
     public static void main(String args[]) {
 
         int balance = 100000, withdraw, deposit;
@@ -56,7 +56,7 @@ public class ATMExample {
                     break;
 
                 case 4:
-                    //exit from the menu
+                
                     System.exit(0);
             }
         }
@@ -69,7 +69,7 @@ public class ATMExample {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        // TODO Auto-generated method stub
+        
         return super.clone();
     }
 
